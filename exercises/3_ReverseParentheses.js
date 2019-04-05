@@ -16,4 +16,4 @@ function reverseInParentheses(inputString) {
     return inputString;
 }
 
-console.log(reverseInParentheses("foo(bar(baz))blim"));
+module.exports = reverseInParentheses;

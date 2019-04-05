@@ -3,4 +3,4 @@ function centuryFromYear(year){
     return century;
 }
 
-console.log(centuryFromYear(1700));
+module.exports = centuryFromYear;

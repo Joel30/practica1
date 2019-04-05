@@ -10,4 +10,5 @@ function isTandemRepeat(inputString){
         return false
     }
 }
-console.log(isTandemRepeat("tandemtandem"));
+
+module.exports = isTandemRepeat;
